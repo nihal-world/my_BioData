@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+a,a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.header{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image:  url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header .navbar{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.header .navbar .logo a{
+   
+  
+   margin-left: 20px;
+   
+}
+
+.header .navbar .menu ul{
+    margin-left: 100px;
+    
+}
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+.header .navbar .menu ul li a:hover{
+    color: #c32865;
+
+}
+.header .navbar .menu ul li a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+.header .contact-info{
+    margin-left: 400px;
+    margin-right: 10px;
+}
+.header .contact-info ul{
+    margin-left: 15px;
+    
+}
+.header .contact-info ul li{
+    display:inline-block ;
+}
+.header .contact-info ul li a{
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.3s;
+    text-decoration:none;
+   
+
+   
+}
+.header .contact-info ul li a:hover{
+    color: #c32865;
+
+}
+.header .contact-info ul li a.sep{
+    margin: 0 28px;
+    opacity: 0.3;
+}
+.header .banner{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    color: #fff;
+}
+.header .banner .app-text{
+    padding-left: 440px;
+}
+.header .banner .app-text h1{
+    font-size: 80px;
+    position: relative;
+    margin-top:30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.header .banner .app-text h1 span{
+    color:red;
+}
+.header .banner .app-text .btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.header .banner .app-text .btn-group .play-btn{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+.header .banner .app-text .btn-group span{
+    font-size: 20px;
+    margin-left: 24px;
+    color: white;
+    cursor: pointer;
+}
+.header .banner .app-text .btn-group .play-btn-inner i{
+    font-size: 15px;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    padding-left: 4px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease-out;
+
+}
+.header .banner .app-text a {
+    text-decoration: none;
+}
+
+.header .banner .app-text .btn-group .play-btn:hover .play-btn-inner i,
+.header .banner .app-text .btn-group .play-btn:hover span{
+    color:#c32865;
+    border-color:#c32865;
+    transition: all 0.5s;
+
+}
+.primary-btn::before{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 0.5px;
+    border-top: 20px solid rgb(255, 0, 0);
+    top: 90%;
+    left:0;
+}
+/*---------------------------------------------------contact------------------------------------------------------------*/
+a,a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.headers{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(black,white,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.headers .navbars{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.headers .navbars .logos a{
+   
+  
+   margin-left: 20px;
+   
+}
+
+.headers .navbars .menus ul{
+    margin-left: 100px;
+    
+}
+.headers .navbars .menus ul li{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+.headers .navbars .menus ul li a:hover{
+    color: #c32865;
+
+}
+.headers .navbars .menus ul li a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+.con img{
+    width: 100%;
+    cursor: pointer;
+    filter:grayscale(100%);
+}
+.con img:hover
+{
+    filter:grayscale(0);
+}
+
+.con .insta{
+    position:absolute;
+    top:49.5%;
+    left:25% ;
+}
+.con .face{
+    position:absolute;
+    top:49.5%;
+    left:40% ;
+  
+}
+.con .link{
+    position:absolute;
+    top:49.5%;
+    right:40% ;
+}
+.con .git{
+    position:absolute;
+    top:49.5%;
+    right:25% ;
+}
+.back{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    border-radius: 100%;
+    
+}
+/*-----------------------------------------------------------portfolio-----------------------------------*/
+a,a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.headerp{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(black,white,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.headerp.navbarp{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.headerp .navbarp .logop a{
+   
+  
+   margin-left: 20px;
+   
+}
+
+.headerp .navbarp .menup ul{
+    margin-left: 100px;
+    
+}
+.headerp .navbarp .menup ul li{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+.headerp .navbarp .menup ul li a:hover{
+    color: #c32865;
+
+}
+.headerp .navbarp .menup ul li a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+.insta{
+    position:absolute;
+    top:50%;
+    left:25% ;
+}
+.face{
+    position:absolute;
+    top:50%;
+    left:47% ;
+  
+}
+.link{
+    position:absolute;
+    top:50%;
+    right:25% ;
+}
+.backp{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    border-radius: 100%;
+    
+}
+/*---------------------------------------------------------------resume---------------------------*/
+a,a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.headerr{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(black,white,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.headerr.navbarr{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.headerr .navbarr .logor a{
+   
+  
+   margin-left: 20px;
+   
+}
+
+.headerr .navbarr .menur ul{
+    margin-left: 100px;
+    
+}
+.headerr .navbarr .menur ul li{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+.headerr .navbarr .menur ul li a:hover{
+    color: #c32865;
+
+}
+.headerr .navbarr .menur ul li a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+.insta{
+    position:absolute;
+    top:50%;
+    left:25% ;
+}
+.face{
+    position:absolute;
+    top:50%;
+    left:47% ;
+  
+}
+.link{
+    position:absolute;
+    top:50%;
+    right:25% ;
+}
+.backr{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    border-radius: 100%;
+    
+}
+/*-------------------------------------------------------about------------------------------*/
+a,a:hover{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.headera{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(black,white,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.headera.navbara{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.headera .navbara .logoa a{
+   
+  
+   margin-left: 20px;
+   
+}
+
+.headera .navbara .menua ul{
+    margin-left: 100px;
+    
+}
+.headera .navbara .menua ul li{
+    display: inline-block;
+    margin-right: 30px;
+    align-items: center;
+    transition: all 0.8s;
+    
+}
+.headera .navbara .menua ul li a:hover{
+    color: #c32865;
+
+}
+.headera .navbara .menua ul li a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: none;
+    
+}
+.insta{
+    position:absolute;
+    top:50%;
+    left:25% ;
+}
+.face{
+    position:absolute;
+    top:50%;
+    left:47% ;
+  
+}
+.link{
+    position:absolute;
+    top:50%;
+    right:25% ;
+}
+.backa{
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    border-radius: 100%;
+    
+}
